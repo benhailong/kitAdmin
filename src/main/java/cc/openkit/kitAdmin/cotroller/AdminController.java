@@ -2,8 +2,8 @@ package cc.openkit.kitAdmin.cotroller;
 
 import com.jfinal.core.Controller;
 
-public class HelloController extends Controller{
+public class AdminController extends Controller{
     public void index(){
-        renderText("Helow KitAdmin.");
+        render("/admin/login.html");
     }
 }
